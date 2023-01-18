@@ -76,9 +76,9 @@ const config = {
       isCloseable: false,
     },
           algolia: {
-      apiKey: "7640fd8ca3b8204bd58b654f71607ab5",
-      indexName: "docs",
-      appId: "8YELX4XDEG",
+      apiKey: "c2e792c2e75fe1dd3e40574f8b4c9a80",
+      indexName: "help",
+      appId: "70GEOCJCSX",
       // Optional: see doc section bellow
       contextualSearch: true,
 
