@@ -9,7 +9,7 @@ import ExploreContent from "../components/ExploreContent/ExploreContent";
 //import DiscoverYourPath from "../components/DiscoverYourPath/DiscoverYourPath";
 import { DocSearch } from '@docsearch/react'
  
-const { algolia } = themeConfig as ThemeConfig;
+const { algolia } = themeConfig;
 
 function Home() {
   const context = useDocusaurusContext();
