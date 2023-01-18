@@ -9,7 +9,6 @@ import ExploreContent from "../components/ExploreContent/ExploreContent";
 //import DiscoverYourPath from "../components/DiscoverYourPath/DiscoverYourPath";
 import { DocSearch } from '@docsearch/react'
  
-const { algolia } = ThemeConfig;
 
 function Home() {
   const context = useDocusaurusContext();
@@ -27,9 +26,9 @@ function Home() {
           <div className="searchDiv">
 <div className={styles.docSearch}>
             <DocSearch
-              apiKey={algolia.apiKey}
-              appId={algolia.appId}
-              indexName={algolia.indexName}
+              apiKey="deffdfd"
+              appId="deffdfd"
+              indexName="deffdfd"
             />
           </div>          </div>
         </div>
