@@ -61,65 +61,10 @@ const config = {
              },
         items: [
            {
-          label: "體育",
-          position: "left",
-          items: [
-            {
-              label: "雙龍職棒",
-            href: 'https://slbtw.cf/',
-            },
-            {
-            label: '雙龍職籃',
-            href: 'https://sbatw.ml/',
-            },
-          ],
-        },
-      {
-          label: "支援",
-          position: "left",
-          items: [
-            {
-              label: "幫助中心",
-            href: 'https://help.ssangyongsports.eu.org/',
-            },
-            {
-            label: '社區',
-            href: 'https://DISCUSS.ssangyongsports.eu.org/',
-            },
-            {
-              label: "聯繫",
-            href: 'https://status.ssangyongsports.eu.org/c',
-            },
-          ],
-        },
-         {
-          label: "組織",
-          position: "left",
-          items: [
-            {
-              label: "Blog",
-            href: 'https://ssangyongsports.eu.org/blog',
-            },
-            {
-            label: '狀態',
-            href: 'https://status.ssangyongsports.eu.org/',
-            },
-          ],
-        },
-          {
-          label: "條款",
-          position: "left",
-          items: [
-            {
-              label: "隱私政策",
-            href: 'https://ssangyongsports.eu.org/p',
-            },
-            {
-             label: "服務條款",
-            href: 'https://ssangyongsports.eu.org/t',
-            },
-          ],
-        },
+            href: 'https://www.ssangyongsports.org/',
+            label: '回首頁',
+            position: 'left',
+          },
         ],
       },
               announcementBar: {
