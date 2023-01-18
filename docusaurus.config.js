@@ -88,7 +88,7 @@ const config = {
             },
             {
               label: "聯繫",
-              to: "/c",
+            href: 'https://status.ssangyongsports.eu.org/c',
             },
           ],
         },
