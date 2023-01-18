@@ -24,8 +24,13 @@ function Home() {
           />
           <h1 className="hero__title">{siteConfig.title}</h1>
           <div className="searchDiv">
-            <SearchHeader />
-          </div>
+<div className={styles.docSearch}>
+            <DocSearch
+              apiKey={algolia.apiKey}
+              appId={algolia.appId}
+              indexName={algolia.indexName}
+            />
+          </div>          </div>
         </div>
       </header>
       <hr></hr>
