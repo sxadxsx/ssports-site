@@ -11,7 +11,7 @@ import { DocSearch } from '@docsearch/react'
 
 function Home() {
   const context = useDocusaurusContext();
-  const { algolia } = themeConfig as ThemeConfig
+  const { algolia } = themeConfig as ThemeConfig;
   const { siteConfig = {} } = context;
   return (
     <Layout description="歡迎來到雙龍體育支援中心.">
