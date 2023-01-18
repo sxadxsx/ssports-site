@@ -7,6 +7,7 @@ import styles from "./styles.module.css";
 //Components
 import ExploreContent from "../components/ExploreContent/ExploreContent";
 //import DiscoverYourPath from "../components/DiscoverYourPath/DiscoverYourPath";
+import { DocSearch } from '@docsearch/react'
 
 function Home() {
   const context = useDocusaurusContext();
