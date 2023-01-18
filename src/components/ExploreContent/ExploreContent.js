@@ -6,36 +6,29 @@ import styles from "./styles.module.css";
 
 const firstDataRow = [
   {
-    title: "Get Started",
-    icon: "img/get_started-icon.png",
+    title: "文章撰寫中",
     link: "/",
     description: (
       <>
-        Learn about Zowe™ architecture, components, and how to quickly get
-        started with Zowe. Read about what's new and changed in the Release
-        Notes, FAQs.
+        文章撰寫中
       </>
     ),
   },
   {
-    title: "Setup and Use",
-    icon: "img/user_guide-icon.png",
+    title: "文章撰寫中",
     link: "/",
     description: (
       <>
-        Find out how to install and configure Zowe. Learn about how to use 
-        different Zowe components and a numer of Zowe applications and plug-ins.
+       文章撰寫中
       </>
     ),
   },
   {
-    title: "Extend",
-    icon: "img/extend-icon.png",
+    title: "文章撰寫中",
     link: "/",
     description: (
       <>
-        Learn about onboarding your products. Developers can follow tutorials
-        that teach how to build and extend Zowe components.
+        文章撰寫中
       </>
     ),
   },
@@ -43,35 +36,29 @@ const firstDataRow = [
 
 const secondDataRow = [
   {
-    title: "Troubleshoot",
-    icon: "img/troubleshooting-icon.png",
+    title: "文章撰寫中",
     link: "/",
     description: (
       <>
-        Get troubleshooting tips to help you understand and effectively resolve
-        problems with Zowe.
+       文章撰寫中
       </>
     ),
   },
   {
-    title: "Contribute",
-    icon: "img/contribute-icon.png",
+    title: "文章撰寫中",
     link: "/",
     description: (
       <>
-        Learn about how you can contribute to Zowe and this documentation. Read about 
-        the Zowe UI and code guidelines.
+        文章撰寫中
       </>
     ),
   },
   {
-    title: "References",
-    icon: "img/references-icon.png",
+    title: "文章撰寫中",
     link: "/",
     description: (
       <>
-        Get a list of reference materials to help you use Zowe, including the
-        Zowe command line reference, API reference, TPSR, and more.
+      文章撰寫中
       </>
     ),
   },
