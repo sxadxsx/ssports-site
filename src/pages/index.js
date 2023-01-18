@@ -22,9 +22,9 @@ function Home() {
           <div className="searchDiv">
 <div className={styles.docSearch}>
             <DocSearch
-              apiKey="deffdfd"
-              appId="deffdfd"
-              indexName="deffdfd"
+              apiKey="c2e792c2e75fe1dd3e40574f8b4c9a80"
+              appId="70GEOCJCSX"
+              indexName="help"
             />
           </div>          </div>
         </div>
