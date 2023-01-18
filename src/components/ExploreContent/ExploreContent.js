@@ -8,7 +8,7 @@ const firstDataRow = [
   {
     title: "Get Started",
     icon: "img/get_started-icon.png",
-    link: "stable/getting-started/overview",
+    link: "/",
     description: (
       <>
         Learn about Zowe™ architecture, components, and how to quickly get
@@ -20,7 +20,7 @@ const firstDataRow = [
   {
     title: "Setup and Use",
     icon: "img/user_guide-icon.png",
-    link: "stable/user-guide/install-overview",
+    link: "/",
     description: (
       <>
         Find out how to install and configure Zowe. Learn about how to use 
@@ -31,7 +31,7 @@ const firstDataRow = [
   {
     title: "Extend",
     icon: "img/extend-icon.png",
-    link: "stable/extend/extend-zowe-overview",
+    link: "/",
     description: (
       <>
         Learn about onboarding your products. Developers can follow tutorials
@@ -45,7 +45,7 @@ const secondDataRow = [
   {
     title: "Troubleshoot",
     icon: "img/troubleshooting-icon.png",
-    link: "stable/troubleshoot/troubleshooting",
+    link: "/",
     description: (
       <>
         Get troubleshooting tips to help you understand and effectively resolve
@@ -56,7 +56,7 @@ const secondDataRow = [
   {
     title: "Contribute",
     icon: "img/contribute-icon.png",
-    link: "stable/contribute/roadmap-contribute",
+    link: "/",
     description: (
       <>
         Learn about how you can contribute to Zowe and this documentation. Read about 
@@ -67,7 +67,7 @@ const secondDataRow = [
   {
     title: "References",
     icon: "img/references-icon.png",
-    link: "stable/appendix/zowe-cli-command-reference",
+    link: "/",
     description: (
       <>
         Get a list of reference materials to help you use Zowe, including the
