@@ -17,12 +17,8 @@ function Home() {
     <Layout description="歡迎來到雙龍體育支援中心.">
       <header className={clsx("hero", styles.heroBanner)}>
         <div className="container">
-          <img
-            className={styles.heroLogo}
-            alt="Download icon"
-            src={useBaseUrl("/img/zowe-icon-dark.png")}
-          />
-          <h1 className="hero__title">{siteConfig.title}</h1>
+          
+          <h1 className="hero__title">我們能幫助你什麼嗎？</h1>
           <div className="searchDiv">
 <div className={styles.docSearch}>
             <DocSearch
