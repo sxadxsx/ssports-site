@@ -98,8 +98,7 @@ const config = {
           items: [
             {
               label: "Blog",
-              to: "/blog/",
-              activeBaseRegex: "/blog/?$",
+            href: 'https://ssangyongsports.eu.org/blog',
             },
             {
             label: '狀態',
@@ -113,11 +112,11 @@ const config = {
           items: [
             {
               label: "隱私政策",
-              to: "/p",
+            href: 'https://ssangyongsports.eu.org/p',
             },
             {
              label: "服務條款",
-              to: "/t",
+            href: 'https://ssangyongsports.eu.org/t',
             },
           ],
         },
@@ -198,7 +197,7 @@ const config = {
               },
               {
                 label: '聯繫',
-                href: '/c',
+            href: 'https://ssangyongsports.eu.org/c',
               },
             ],
           },
