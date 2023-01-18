@@ -8,10 +8,11 @@ import styles from "./styles.module.css";
 import ExploreContent from "../components/ExploreContent/ExploreContent";
 //import DiscoverYourPath from "../components/DiscoverYourPath/DiscoverYourPath";
 import { DocSearch } from '@docsearch/react'
+ 
+const { algolia } = themeConfig as ThemeConfig;
 
 function Home() {
   const context = useDocusaurusContext();
-  const { algolia } = themeConfig as ThemeConfig;
   const { siteConfig = {} } = context;
   return (
     <Layout description="歡迎來到雙龍體育支援中心.">
