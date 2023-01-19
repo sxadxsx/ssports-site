@@ -8,7 +8,8 @@ import styles from "./styles.module.css";
 import ExploreContent from "../components/ExploreContent/ExploreContent";
 //import DiscoverYourPath from "../components/DiscoverYourPath/DiscoverYourPath";
 import { DocSearch } from '@docsearch/react'
- 
+import ChatwootWidget from '../components/ChatwootWidget'
+
 
 function Home() {
   const context = useDocusaurusContext();
@@ -31,6 +32,7 @@ function Home() {
       </header>
       <hr></hr>
       <ExploreContent />
+           <ChatwootWidget />
       <hr></hr>
       <main>
      </main>
