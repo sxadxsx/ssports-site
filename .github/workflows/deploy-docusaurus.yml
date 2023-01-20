@@ -18,8 +18,11 @@ jobs:
           cache: yarn
 
       - name: docsearch抓取
+        env:
+          ALGOLIA_APP_ID: "70GEOCJCSX"
+          ALGOLIA_API_KEY: "b8504bd49b99826b1f7f7ccb8d9dadc8"
         run: |
           docker run \
-          -e --env-file=.env  \
+          -e ALGOLIA_APP_ID -e ALGOLIA_API_KEY \
           -e CONFIG="$(cat config.json)" \
           algolia/docsearch-scraper
