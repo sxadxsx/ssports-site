@@ -18,8 +18,11 @@ jobs:
           cache: yarn
 
       - name: docsearch抓取
+        env:
+          app代碼: "70GEOCJCSX"
+          API_金鑰: "b8504bd49b99826b1f7f7ccb8d9dadc8 "
         run: |
           docker run \
-          -e --env-file=.env \
-          -e CONFIG="$(cat ./config.json)" \
+          -e app代碼 -e API_金鑰 \
+          -e CONFIG="$(cat ..json)" \
           algolia/docsearch-scraper
