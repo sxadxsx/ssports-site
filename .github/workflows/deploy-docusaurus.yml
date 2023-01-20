@@ -19,10 +19,10 @@ jobs:
 
       - name: docsearch抓取
         env:
-          app代碼: "70GEOCJCSX"
-          API_金鑰: "b8504bd49b99826b1f7f7ccb8d9dadc8"
+          ALGOLIA_APP_ID: "70GEOCJCSX"
+          ALGOLIA_API_KEY: "b8504bd49b99826b1f7f7ccb8d9dadc8"
         run: |
           docker run \
-          -e app代碼 -e API_金鑰 \
+          -e ALGOLIA_APP_ID -e ALGOLIA_API_KEY \
           -e CONFIG="$(cat config.json)" \
           algolia/docsearch-scraper
