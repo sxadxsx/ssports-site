@@ -23,6 +23,6 @@ jobs:
           API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
         run: |
           docker run \
-          -t-i --env-file=.env \
+          -e --env-file=.env \
           -e CONFIG="$(cat ./config.json)" \
           algolia/docsearch-scraper
