@@ -9,7 +9,7 @@
     <img src="https://i.ibb.co/RHw9RV2/image.png" alt="Yeecord" width="48" height="48">
     狀態
 </h1>
-starus.ssangyongsports.org
+status.ssangyongsports.org
 
 ## 🙏 感謝
 1.vercel
