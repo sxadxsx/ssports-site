@@ -24,11 +24,11 @@ const firstDataRow = [
     ),
   },
   {
-    title: "文章撰寫中",
+    title: "聯繫",
     link: "/",
     description: (
       <>
-        文章撰寫中
+        了解如何聯繫雙龍體育
       </>
     ),
   },
